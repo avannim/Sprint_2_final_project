@@ -14,8 +14,8 @@ public class Main {
         Food[] arr = {product1, product2, product3};
         ShoppingCart cart = new ShoppingCart(arr);
 
-        System.out.println(cart.getSumDiscount());
-        System.out.println(cart.getSumNoDiscount());
-        System.out.println(cart.getSumVegetarian());
+        System.out.println("Сумма всех товаров в корзине без скидки: " + cart.getSumNoDiscount() + " руб.");
+        System.out.println("Сумма всех товаров в корзине со скидкой: " + cart.getSumDiscount() + " руб.");
+        System.out.println("Сумма всех вегетарианских товаров в корзине без скидки: " + cart.getSumVegetarian() + " руб.");
     }
 }
