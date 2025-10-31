@@ -1,6 +1,6 @@
 package model.constants;
 
 public class Discount {
-    public static final int appleDiscount = 60;
-    public static final int noDiscount = 0;
+    public static final int APPLE_DICOUNT = 60;
+    public static final int NO_DISCOUNT = 0;
 }
